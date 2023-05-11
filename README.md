@@ -1,6 +1,6 @@
 # react-todo-app-practice
 
-フィヨルドブートキャンプの「Reactの基本」プラクティス用リポジトリです。
+フィヨルドブートキャンプの「React の基本」プラクティス用リポジトリです。
 
 ## プラクティスを進めるにあたって
 
@@ -12,7 +12,7 @@
 
 1. 右上の `Fork` ボタンを押してください。
 2. `#{自分のアカウント名}/react-todo-app-practice` が作成されます。
-3. 作業PCの任意の作業ディレクトリにて `git clone` してください。
+3. 作業 PC の任意の作業ディレクトリにて `git clone` してください。
 
 ```
 $ git clone https://github.com/自分のアカウント名/react-todo-app-practice.git
@@ -20,14 +20,13 @@ $ git clone https://github.com/自分のアカウント名/react-todo-app-practi
 
 4. `cd react-todo-app-practice` でカレントディレクトリを変更してください。
 5. `npx http-server`を実行するとローカルサーバーが起動し、`localhost:8080`でアクセスできます。最初は`index.html`が空なので真っ白な画面が表示されます。
-6. Todoアプリを実装してください。ReactとBabelはCDNから読み込み、全てのソースコードは`index.html`、`todo.js`、`style.css`の中に書いてください。
-7. html/js/cssを修正したら、ブラウザをリロードして動作を確認してください。キャッシュをクリアするために、Windowsなら「Ctrl + F5」、Macなら「shift + cmd + R」でリロードしましょう。
-8. 自分が書いたコードをGitHubにpushしてください。
-9. ソースコードが完成したら、以下の注意点に気を付けながら自分のリポジトリへのPull Requestを作成し、URLを提出してください。
-    - OK `自分のアカウント名/main` ← `自分のアカウント名/react-todo-app-practice`
-    - NG `fjordllc/main` ← `自分のアカウント名/react-todo-app-practice`
-10. 合格したら上記Pull Requestをマージしてください。
-
+6. Todo アプリを実装してください。React と Babel は CDN から読み込み、全てのソースコードは`index.html`、`todo.js`、`style.css`の中に書いてください。
+7. html/js/css を修正したら、ブラウザをリロードして動作を確認してください。キャッシュをクリアするために、Windows なら「Ctrl + F5」、Mac なら「shift + cmd + R」でリロードしましょう。
+8. 自分が書いたコードを GitHub に push してください。
+9. ソースコードが完成したら、以下の注意点に気を付けながら自分のリポジトリへの Pull Request を作成し、URL を提出してください。
+   - OK `自分のアカウント名/main` ← `自分のアカウント名/react-todo-app-practice`
+   - NG `fjordllc/main` ← `自分のアカウント名/react-todo-app-practice`
+10. 合格したら上記 Pull Request をマージしてください。
 
 ## 補足
 
