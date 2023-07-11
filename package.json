@@ -1,0 +1,12 @@
+{
+  "name": "react-todo-app-practice",
+  "version": "1.0.0",
+  "description": "フィヨルドブートキャンプの「React の基本」プラクティス用リポジトリです。",
+  "main": "todo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
