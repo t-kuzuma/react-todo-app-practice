@@ -99,6 +99,7 @@ class Todo extends React.Component {
     this.handleEdit = this.handleEdit.bind(this);
     this.handleChange = this.handleChange.bind(this);
     this.handleSave = this.handleSave.bind(this);
+    this.handleCancel = this.handleCancel.bind(this);
   }
 
   render() {
@@ -111,6 +112,7 @@ class Todo extends React.Component {
             onChange={this.handleChange}
           />
           <button onClick={this.handleSave}>保存</button>
+          <button onClick={this.handleCancel}>キャンセル</button>
           <button onClick={() => this.props.handleDelete(this.props.item.id)}>
             削除
           </button>
@@ -130,7 +132,7 @@ class Todo extends React.Component {
   }
 
   handleEdit() {
-    this.setState({ isEdit: true });
+    this.setState({ text: this.props.item.text, isEdit: true });
   }
 
   handleChange(e) {
@@ -139,6 +141,10 @@ class Todo extends React.Component {
 
   handleSave() {
     this.props.handleUpdate(this.props.item.id, this.state.text);
+    this.setState({ isEdit: false });
+  }
+
+  handleCancel() {
     this.setState({ isEdit: false });
   }
 }
