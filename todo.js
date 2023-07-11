@@ -143,5 +143,5 @@ class Todo extends React.Component {
   }
 }
 
-const todo_app = ReactDOM.createRoot(document.getElementById("todo_app"));
-todo_app.render(<TodoApp />);
+const todoApp = ReactDOM.createRoot(document.getElementById("todo-app"));
+todoApp.render(<TodoApp />);
